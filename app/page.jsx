@@ -1,5 +1,10 @@
+import Link from "next/link";
+
 const HomePage = () => {
-  return (<div className="text-2xl">HomePage</div>);
+  return (<div>
+    <h3 className="text-3xl">Welcome</h3>
+    <Link href='/properties'>Go To Properties</Link>
+  </div>);
 }
 
 export default HomePage;
